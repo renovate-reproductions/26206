@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://gitlab.com/gitlab-org/gitlab/-/raw/master/app/assets/javascripts/editor/schema/ci.json
+---
+
+stages:
+  - test
+
+check_renovate_config:
+  stage: test
+  image: renovate/renovate:slim
+  script:
+    - renovate-config-validator
