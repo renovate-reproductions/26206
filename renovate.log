@@ -1,0 +1,297 @@
+ INFO: Repository started (repository=greenworking/reproducer-26206)
+       "renovateVersion": "37.92.4"
+DEBUG: Using localDir: /builds/greenworking/renovate-runner-bot/renovate/repos/gitlab/greenworking/reproducer-26206 (repository=greenworking/reproducer-26206)
+DEBUG: PackageFiles.clear() - Package files deleted (repository=greenworking/reproducer-26206)
+DEBUG: hostRules: applying Bearer authentication for gitlab.com (repository=greenworking/reproducer-26206)
+DEBUG: greenworking/reproducer-26206 default branch = main (repository=greenworking/reproducer-26206)
+DEBUG: Enabling Git FS (repository=greenworking/reproducer-26206)
+DEBUG: Using http URL: https://gitlab.com/greenworking/reproducer-26206.git (repository=greenworking/reproducer-26206)
+DEBUG: RepoCacheBase.load() - expecting data of type 'string' received 'object' instead - skipping (repository=greenworking/reproducer-26206)
+DEBUG: Resetting npmrc (repository=greenworking/reproducer-26206)
+DEBUG: Resetting npmrc (repository=greenworking/reproducer-26206)
+DEBUG: checkOnboarding() (repository=greenworking/reproducer-26206)
+DEBUG: isOnboarded() (repository=greenworking/reproducer-26206)
+DEBUG: findPr(renovate/configure, Configure Renovate, !open) (repository=greenworking/reproducer-26206)
+DEBUG: findFile(renovate.json) (repository=greenworking/reproducer-26206)
+DEBUG: Initializing git repository into /builds/greenworking/renovate-runner-bot/renovate/repos/gitlab/greenworking/reproducer-26206 (repository=greenworking/reproducer-26206)
+DEBUG: Performing blobless clone (repository=greenworking/reproducer-26206)
+DEBUG: git clone completed (repository=greenworking/reproducer-26206)
+       "durationMs": 1199
+DEBUG: latest repository commit (repository=greenworking/reproducer-26206)
+       "latestCommit": {
+         "hash": "769760bc88cabf2eda86efe6dc7095e9a10862cb",
+         "date": "2023-12-13T07:46:42+00:00",
+         "message": "Update renovate.json",
+         "refs": "HEAD -> main, origin/main, origin/HEAD",
+         "body": "",
+         "author_name": "Mathieu Bruyen",
+         "author_email": "mathieu.bruyen@gpulse.fr"
+       }
+DEBUG: Config file exists, fileName: renovate.json (repository=greenworking/reproducer-26206)
+DEBUG: ensureIssueClosing() (repository=greenworking/reproducer-26206)
+DEBUG: Repo is onboarded (repository=greenworking/reproducer-26206)
+DEBUG: Found renovate.json config file (repository=greenworking/reproducer-26206)
+DEBUG: Repository config (repository=greenworking/reproducer-26206)
+       "fileName": "renovate.json",
+       "config": {
+         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+         "extends": ["config:base"]
+       }
+DEBUG: migrateAndValidate() (repository=greenworking/reproducer-26206)
+DEBUG: Config migration necessary (repository=greenworking/reproducer-26206)
+       "oldConfig": {
+         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+         "extends": ["config:base"]
+       },
+       "newConfig": {
+         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+         "extends": ["config:recommended"]
+       }
+DEBUG: Post-massage config (repository=greenworking/reproducer-26206)
+       "config": {
+         "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+         "extends": ["config:recommended"]
+       }
+DEBUG: Setting hostRules from config (repository=greenworking/reproducer-26206)
+DEBUG: Found repo ignorePaths (repository=greenworking/reproducer-26206)
+       "ignorePaths": [
+         "**/node_modules/**",
+         "**/bower_components/**",
+         "**/vendor/**",
+         "**/examples/**",
+         "**/__tests__/**",
+         "**/test/**",
+         "**/tests/**",
+         "**/__fixtures__/**"
+       ]
+DEBUG: No vulnerability alerts found (repository=greenworking/reproducer-26206)
+DEBUG: findIssue(Dependency Dashboard) (repository=greenworking/reproducer-26206)
+DEBUG: No baseBranches (repository=greenworking/reproducer-26206)
+DEBUG: extract() (repository=greenworking/reproducer-26206)
+DEBUG: Setting current branch to main (repository=greenworking/reproducer-26206)
+DEBUG: latest commit (repository=greenworking/reproducer-26206)
+       "branchName": "main",
+       "latestCommitDate": "2023-12-13T07:46:42+00:00"
+DEBUG: Using file match: (^|/)tasks/[^/]+\.ya?ml$ for manager ansible (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)requirements\.ya?ml$ for manager ansible-galaxy (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)galaxy\.ya?ml$ for manager ansible-galaxy (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.tool-versions$ for manager asdf (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: azure.*pipelines?.*\.ya?ml$ for manager azure-pipelines (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)batect(-bundle)?\.ya?ml$ for manager batect (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)batect$ for manager batect-wrapper (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)WORKSPACE(|\.bazel)$ for manager bazel (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.bzl$ for manager bazel (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)MODULE\.bazel$ for manager bazel-module (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.bazelversion$ for manager bazelisk (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.bicep$ for manager bicep (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.?bitbucket-pipelines\.ya?ml$ for manager bitbucket-pipelines (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: buildkite\.ya?ml for manager buildkite (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.buildkite/.+\.ya?ml$ for manager buildkite (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)bun\.lockb$ for manager bun (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Gemfile$ for manager bundler (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.cake$ for manager cake (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Cargo\.toml$ for manager cargo (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.circleci/config\.ya?ml$ for manager circleci (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)cloudbuild\.ya?ml for manager cloudbuild (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Podfile$ for manager cocoapods (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)([\w-]*)composer\.json$ for manager composer (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)conanfile\.(txt|py)$ for manager conan (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)cpanfile$ for manager cpanfile (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)(?:deps|bb)\.edn$ for manager deps-edn (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)(?:docker-)?compose[^/]*\.ya?ml$ for manager docker-compose (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/|\.)([Dd]ocker|[Cc]ontainer)file$ for manager dockerfile (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)([Dd]ocker|[Cc]ontainer)file[^/]*$ for manager dockerfile (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.drone\.yml$ for manager droneci (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)fleet\.ya?ml for manager fleet (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (?:^|/)gotk-components\.ya?ml$ for manager flux (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.fvm/fvm_config\.json$ for manager fvm (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.gitmodules$ for manager git-submodules (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)(workflow-templates|\.(?:github|gitea|forgejo)/workflows)/[^/]+\.ya?ml$ for manager github-actions (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)action\.ya?ml$ for manager github-actions (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.gitlab-ci\.ya?ml$ for manager gitlabci (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.gitlab-ci\.ya?ml$ for manager gitlabci-include (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)go\.mod$ for manager gomod (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.gradle(\.kts)?$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)gradle\.properties$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)gradle/.+\.toml$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)buildSrc/.+\.kt$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.versions\.toml$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)versions.props$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)versions.lock$ for manager gradle (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)gradle/wrapper/gradle-wrapper\.properties$ for manager gradle-wrapper (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)requirements\.ya?ml$ for manager helm-requirements (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)values\.ya?ml$ for manager helm-values (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)helmfile\.ya?ml(?:\.gotmpl)?$ for manager helmfile (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Chart\.ya?ml$ for manager helmv3 (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)bin/hermit$ for manager hermit (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: ^Formula/[^/]+[.]rb$ for manager homebrew (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.html?$ for manager html (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)plugins\.(txt|ya?ml)$ for manager jenkins (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)jsonnetfile\.json$ for manager jsonnet-bundler (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: ^.+\.main\.kts$ for manager kotlin-script (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)kustomization\.ya?ml$ for manager kustomize (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)project\.clj$ for manager leiningen (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/|\.)pom\.xml$ for manager maven (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: ^(((\.mvn)|(\.m2))/)?settings\.xml$ for manager maven (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|\/).mvn/wrapper/maven-wrapper.properties$ for manager maven-wrapper (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)package\.js$ for manager meteor (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Mintfile$ for manager mint (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)mix\.exs$ for manager mix (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)flake\.nix$ for manager nix (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.node-version$ for manager nodenv (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)package\.json$ for manager npm (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.(?:cs|fs|vb)proj$ for manager nuget (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.(?:props|targets)$ for manager nuget (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)dotnet-tools\.json$ for manager nuget (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)global\.json$ for manager nuget (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.nvmrc$ for manager nvm (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)src/main/features/.+\.json$ for manager osgi (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)pyproject\.toml$ for manager pep621 (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)[\w-]*requirements(-\w+)?\.(txt|pip)$ for manager pip_requirements (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)setup\.py$ for manager pip_setup (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Pipfile$ for manager pipenv (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)pyproject\.toml$ for manager poetry (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.pre-commit-config\.ya?ml$ for manager pre-commit (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)pubspec\.ya?ml$ for manager pub (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Puppetfile$ for manager puppet (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.python-version$ for manager pyenv (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.ruby-version$ for manager ruby-version (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.sbt$ for manager sbt (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: project/[^/]*\.scala$ for manager sbt (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: project/build\.properties$ for manager sbt (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)setup\.cfg$ for manager setup-cfg (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)Package\.swift for manager swift (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.tf$ for manager terraform (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.terraform-version$ for manager terraform-version (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)terragrunt\.hcl$ for manager terragrunt (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.terragrunt-version$ for manager terragrunt-version (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: \.tflint\.hcl$ for manager tflint-plugin (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: ^\.travis\.ya?ml$ for manager travis (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: (^|/)\.vela\.ya?ml$ for manager velaci (repository=greenworking/reproducer-26206)
+DEBUG: Using file match: ^\.woodpecker(?:/[^/]+)?\.ya?ml$ for manager woodpecker (repository=greenworking/reproducer-26206)
+DEBUG: Matched 1 file(s) for manager gitlabci: .gitlab-ci.yml (repository=greenworking/reproducer-26206)
+DEBUG: Matched 1 file(s) for manager gitlabci-include: .gitlab-ci.yml (repository=greenworking/reproducer-26206)
+DEBUG: manager extract durations (ms) (repository=greenworking/reproducer-26206)
+       "managers": {"gitlabci": 5, "gitlabci-include": 5}
+DEBUG: Found gitlabci package files (repository=greenworking/reproducer-26206)
+DEBUG: Found 1 package file(s) (repository=greenworking/reproducer-26206)
+ INFO: Dependency extraction complete (repository=greenworking/reproducer-26206, baseBranch=main)
+       "stats": {
+         "managers": {"gitlabci": {"fileCount": 1, "depCount": 1}},
+         "total": {"fileCount": 1, "depCount": 1}
+       }
+DEBUG: Dependency renovate/renovate has unsupported/unversioned value slim (versioning=docker) (repository=greenworking/reproducer-26206)
+ERROR: lookupUpdates error (repository=greenworking/reproducer-26206, packageFile=.gitlab-ci.yml)
+       "currentDigest": undefined,
+       "currentValue": "slim",
+       "datasource": "docker",
+       "packageName": "renovate/renovate",
+       "digestOneAndOnly": undefined,
+       "followTag": null,
+       "lockedVersion": undefined,
+       "pinDigests": false,
+       "rollbackPrs": false,
+       "isVulnerabilityAlert": undefined,
+       "updatePinnedDependencies": true,
+       "unconstrainedValue": false,
+       "err": {
+         "message": "Cannot read properties of undefined (reading 'matchAll')",
+         "stack": "TypeError: Cannot read properties of undefined (reading 'matchAll')\n    at Object.compile (/opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/util/template/index.ts:229:30)\n    at determineNewReplacementName (/opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/workers/repository/process/lookup/utils.ts:43:14)\n    at addReplacementUpdateIfValid (/opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/workers/repository/process/lookup/utils.ts:13:30)\n    at lookupUpdates (/opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/workers/repository/process/lookup/index.ts:406:34)\n    at /opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/workers/repository/process/fetch.ts:73:24\n    at withLookupStats (/opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/workers/repository/process/fetch.ts:27:24)\n    at fetchDepUpdates (/opt/containerbase/tools/renovate/37.92.4/node_modules/renovate/lib/workers/repository/process/fetch.ts:72:36)\n    at /opt/containerbase/tools/renovate/37.92.4/node_modules/p-map/index.js:57:22"
+       }
+DEBUG: PackageFiles.add() - Package file saved for base branch (repository=greenworking/reproducer-26206, baseBranch=main)
+DEBUG: Package releases lookups complete (repository=greenworking/reproducer-26206, baseBranch=main)
+DEBUG: branchifyUpgrades (repository=greenworking/reproducer-26206)
+DEBUG: detectSemanticCommits() (repository=greenworking/reproducer-26206)
+DEBUG: getCommitMessages (repository=greenworking/reproducer-26206)
+DEBUG: semanticCommits: detected "unknown" (repository=greenworking/reproducer-26206)
+DEBUG: semanticCommits: disabled (repository=greenworking/reproducer-26206)
+DEBUG: 0 flattened updates found:  (repository=greenworking/reproducer-26206)
+DEBUG: Returning 0 branch(es) (repository=greenworking/reproducer-26206)
+DEBUG: config.repoIsOnboarded=true (repository=greenworking/reproducer-26206)
+DEBUG: packageFiles with updates (repository=greenworking/reproducer-26206, baseBranch=main)
+       "config": {
+         "gitlabci": [
+           {
+             "packageFile": ".gitlab-ci.yml",
+             "deps": [
+               {
+                 "depName": "renovate/renovate",
+                 "currentValue": "slim",
+                 "replaceString": "renovate/renovate:slim",
+                 "autoReplaceStringTemplate": "{{depName}}{{#if newValue}}:{{newValue}}{{/if}}{{#if newDigest}}@{{newDigest}}{{/if}}",
+                 "datasource": "docker",
+                 "depType": "image",
+                 "updates": [],
+                 "packageName": "renovate/renovate",
+                 "versioning": "docker",
+                 "warnings": [],
+                 "skipReason": "internal-error"
+               }
+             ]
+           }
+         ]
+       }
+DEBUG: detectSemanticCommits() (repository=greenworking/reproducer-26206)
+DEBUG: semanticCommits: returning "disabled" from cache (repository=greenworking/reproducer-26206)
+DEBUG: processRepo() (repository=greenworking/reproducer-26206)
+DEBUG: Processing 0 branches:  (repository=greenworking/reproducer-26206)
+DEBUG: Calculating hourly PRs remaining (repository=greenworking/reproducer-26206)
+DEBUG: currentHourStart=2023-12-14T02:00:00.000+00:00 (repository=greenworking/reproducer-26206)
+DEBUG: PR hourly limit remaining: 2 (repository=greenworking/reproducer-26206)
+DEBUG: Calculating prConcurrentLimit (10) (repository=greenworking/reproducer-26206)
+DEBUG: 0 PRs are currently open (repository=greenworking/reproducer-26206)
+DEBUG: PR concurrent limit remaining: 10 (repository=greenworking/reproducer-26206)
+DEBUG: Calculated maximum PRs remaining this run: 2 (repository=greenworking/reproducer-26206)
+DEBUG: PullRequests limit = 2 (repository=greenworking/reproducer-26206)
+DEBUG: Calculating hourly PRs remaining (repository=greenworking/reproducer-26206)
+DEBUG: currentHourStart=2023-12-14T02:00:00.000+00:00 (repository=greenworking/reproducer-26206)
+DEBUG: PR hourly limit remaining: 2 (repository=greenworking/reproducer-26206)
+DEBUG: Calculating branchConcurrentLimit (10) (repository=greenworking/reproducer-26206)
+DEBUG: 0 already existing branches found:  (repository=greenworking/reproducer-26206)
+DEBUG: Branch concurrent limit remaining: 10 (repository=greenworking/reproducer-26206)
+DEBUG: Calculated maximum branches remaining this run: 2 (repository=greenworking/reproducer-26206)
+DEBUG: Branches limit = 2 (repository=greenworking/reproducer-26206)
+DEBUG: ensureDependencyDashboard() (repository=greenworking/reproducer-26206)
+DEBUG: Ensuring Dependency Dashboard (repository=greenworking/reproducer-26206)
+DEBUG: ensureIssue() (repository=greenworking/reproducer-26206)
+ INFO: Issue created (repository=greenworking/reproducer-26206)
+DEBUG: validateReconfigureBranch() (repository=greenworking/reproducer-26206)
+DEBUG: No reconfigure branch found (repository=greenworking/reproducer-26206)
+DEBUG: Removing any stale branches (repository=greenworking/reproducer-26206)
+DEBUG: config.repoIsOnboarded=true (repository=greenworking/reproducer-26206)
+DEBUG: No renovate branches found (repository=greenworking/reproducer-26206)
+DEBUG: ensureIssueClosing() (repository=greenworking/reproducer-26206)
+DEBUG: ensureIssueClosing() (repository=greenworking/reproducer-26206)
+DEBUG: PackageFiles.clear() - Package files deleted (repository=greenworking/reproducer-26206)
+DEBUG: Branch summary (repository=greenworking/reproducer-26206)
+       "cacheModified": undefined,
+       "baseBranches": [{"branchName": "main", "sha": "769760bc88cabf2eda86efe6dc7095e9a10862cb"}],
+       "branches": [],
+       "defaultBranch": "main",
+       "inactiveBranches": []
+DEBUG: Renovate repository PR statistics (repository=greenworking/reproducer-26206)
+       "stats": {"total": 0, "open": 0, "closed": 0, "merged": 0}
+DEBUG: Repository result: done, status: onboarded, enabled: true, onboarded: true (repository=greenworking/reproducer-26206)
+DEBUG: repository problems (repository=greenworking/reproducer-26206)
+       "repoProblems": ["ERROR: lookupUpdates error"]
+DEBUG: Repository timing splits (milliseconds) (repository=greenworking/reproducer-26206)
+       "splits": {"init": 3256, "extract": 199, "lookup": 39, "onboarding": 1, "update": 5},
+       "total": 4796
+DEBUG: Package cache statistics (repository=greenworking/reproducer-26206)
+       "get": {"count": 0},
+       "set": {"count": 0}
+DEBUG: http statistics (repository=greenworking/reproducer-26206)
+       "urls": {
+         "https://gitlab.com/api/v4/projects/greenworking%2Freproducer-26206/issues (GET,200)": 3,
+         "https://gitlab.com/api/v4/projects/greenworking%2Freproducer-26206/issues (POST,201)": 1,
+         "https://gitlab.com/api/v4/projects/greenworking%2Freproducer-26206/merge_requests (GET,200)": 1
+       },
+       "hostStats": {"gitlab.com": {"requestCount": 5, "requestAvgMs": 357, "queueAvgMs": 0}},
+       "totalRequests": 5
+DEBUG: Package lookup durations (repository=greenworking/reproducer-26206)
+       "docker": {"count": 1, "averageMs": 21, "totalMs": 21, "maximumMs": 21}
+DEBUG: dns cache (repository=greenworking/reproducer-26206)
+       "hosts": []
+ INFO: Repository finished (repository=greenworking/reproducer-26206)
+       "cloned": true,
+       "durationMs": 4796
